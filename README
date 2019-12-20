@@ -1,0 +1,19 @@
+This is a solution to the second task from NAIL069 (Artificial Intelligence I)
+in winter 2019/2020. This repository contains:
+
+- `doc/`: The specification of the problem and a final report with a description
+  of our solution.
+- `src/`: Source codes of the solution in Rust.
+- `tools/Generator.exe` and `tools/Evaluator.exe`: Generator of example problems
+  and a validator that checks the validity of outputs. Both programs were
+  provided by the teacher and they are portable CLI executables that run under
+  Mono.
+- `tools/run_tests.py`: Automated script that generates and runs experiments
+  described in the final report.
+- `inputs/` and `outputs/`: Input and output files of the experiments generated
+  by the `run_tests.py` script.
+
+To build the program, install Rust (https://rustup.rs) and run `cargo build` in
+the repo directory. The resulting executable will be stored in `target/debug`.
+To build in release mode (with optimizations), run `cargo build --release` and
+look into `target/release`.
