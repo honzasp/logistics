@@ -4,3 +4,4 @@ outputs/
 oprofile_data/
 .*.swp
 Session.vim
+*.zip
